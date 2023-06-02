@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+:root{
+  --main:#3D2C8D;
+  --text : rgb(222, 204, 204);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+body {
+  background-color: #03001C;
+}
+
+.left {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title h2 {
+  color: white;
+  line-height: 55px;
+  font-size: 3rem;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 3px;
+}
+
+.title2 h6 {
+  color: rgb(238, 229, 229);
+  margin: 2%;
+}
+
+.title,
+.title2 {
+  width: 90%;
+  color: var(--main);
+}
+
+.left_image {
+  transform: 70deg;
+  width: 90%;
+  box-shadow: #3D2C8D 0px 3px 8px;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.left_image img {
+  height: 100px;
+  width: 150px;
+  rotate: 130deg;
+}
+
+.title3 {
+  margin-left: 4rem;
+  color: rgb(237, 230, 230);
+}
+
+.title3 h6 {
+  text-align: center;
+  margin: 3% 0;
+  padding: 1% 0;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  text-align: end;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  line-height: 18px;
+}
+
+.title4 {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.inner {
+  color: white;
+  text-align: center;
+}
+.innerpart h6{
+  color:var(--text)
+}
+.innerpart{
+  margin-top: 10px;
+}
+
+.inner h6 {
+  color: rgb(222, 204, 204);
+}
+
+.search {
+  width: 90%;
+  min-height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.box {
+  width: 100%;
+  min-height: 55px;
+  background-color: #03001C;
+  padding: 0 10px;
+}
+
+.try {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main);
+  min-height: 57px;
+  width: 70%;
+  font-size: 26px;
+  color: rgb(205, 188, 188);
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right_inner img {
+  width: 100%;
+}
+@media screen and (max-width:700px) {
+      .left_image{
+         display: flex;
+         flex-direction: column;
+         margin: 10px 0;
+      }
+      .left_image img{
+        margin-top: 5px;
+      }
+      .title3{
+        margin-left: 0;
+        margin: 5px 0;
+        padding: 10px;
+        justify-content: justify;
+        text-align: start;
+      }
+      body{
+        overflow-x: hidden;
+      }
+  .try{
+    font-size: 20px;
+  }
+  }
+
+.error{
+  background: none;
+  color:white;
+  text-align: center;
+  transform: translateY(40%);
+  margin-bottom: 17%;
+  font-size: 3rem;
+}

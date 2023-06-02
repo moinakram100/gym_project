@@ -1,0 +1,74 @@
+.program_title{
+    color: var(--main);
+    text-align: center;
+    text-shadow:#3D2C8D 0px 3px 8px ;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-top: 5%;
+}
+.card{
+    height:400px ;
+    box-shadow:#3D2C8D 0px 3px 8px ;
+    background-color: #03001C;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+.card_img{
+    margin-top: 10%;
+    width: 120px;
+    height: 120px;
+    background-color: var(--main);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_img img{
+    width: 100px;
+}
+.card h2{
+    color:white;
+    margin-top: 10px;
+}
+.card p{
+    color:var(--text);
+    padding: 0 10px;
+    text-align: justify;
+}
+.program_img{
+    scale: 1.5;
+}
+.card h5{
+    color:white;
+    box-shadow: var(--main) 0px 0px 3px 5px;
+    padding: 5px;
+    cursor: pointer;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+}
+.card_btn{
+    width: 100%;
+    margin-top: 5%;
+}
+.program_title2{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: 1% 0;
+}
+.card:hover{
+    background-color: var(--main);
+    transition: .2s ease-in;
+    cursor: pointer;
+}
+.card:hover .card_img{
+    background-color: white;
+    transition: .2s ease-in;
+}
+.card:hover .btn_title{
+    box-shadow: white 0px 0px 3px 5px;
+    transition: .2s ease-in;
+}

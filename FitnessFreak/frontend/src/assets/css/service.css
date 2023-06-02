@@ -1,0 +1,58 @@
+.services{
+    margin-bottom: 5%;
+}
+.services_title{
+    color: var(--main);
+    text-align: center;
+    text-shadow:#3D2C8D 0px 3px 8px ;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.service_left{
+    height: 131vh;
+    position: relative;
+}
+.service_left img{
+     width: 80%;
+     height: 80vh;
+     padding: 10px;
+     border-radius: 20px;
+}
+.service_leftText{
+    margin-left: 4%;
+}
+.fitness_image{
+     position: absolute;
+     top: 40%;
+     left:20%;
+}
+.service_right{
+    height: auto;
+    margin-top: 5%;
+}
+.service_right h5{
+    color:white;
+    line-height: 29PX;
+    margin-left: 8%;
+}
+.service_right p{
+    color:var(--text);
+    margin-left: 4%;
+}
+.service_leftText{
+    color:white;
+    font-size: 3rem;
+}
+.btn_title{
+    color:white;
+    box-shadow: var(--main) 0px 0px 3px 5px;
+    padding: 5px;
+    cursor: pointer;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 8%;
+}

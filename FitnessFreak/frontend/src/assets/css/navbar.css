@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+}
+li.active{
+    color:white;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav li {
+    margin: 10px 29px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+.join_btn{
+    color:white;
+    box-shadow: var(--main) 0px 0px 3px 5px;
+    padding: 6px;
+    cursor: pointer;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: auto;
+}
+.navbar{
+    margin-top: 5px;
+}
+   .active{
+    color:white;
+   }

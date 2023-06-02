@@ -1,0 +1,75 @@
+@media screen and (max-width:800px) {
+    .right_inner img {
+      margin-top: 4%;
+    }
+  
+    .gym_brand h4 {
+      font-size: 20px;
+      position: relative;
+      margin: 20px 0;
+    }
+    body{
+      overflow-x: hidden;
+    }
+  }
+  
+  .gym_brand h4 {
+    position: relative;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 5%;
+    color: rgb(222, 204, 204);
+  }
+  
+  .gym_brand h4:before {
+    content: "";
+    display: block;
+    width: 37%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+  }
+  
+  .gym_brand h4:after {
+    content: "";
+    display: block;
+    width: 37%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+  .brand1{
+  /* border: 2px solid red; */
+  }
+  .brand2{
+    /* border: 2px solid green; */
+  }
+  .brand3{
+    /* border: 2px solid blue; */
+  }
+  .brand4{
+    /* border: 2px solid yellow; */
+  }
+  .gym_brands{
+    display: flex;
+    justify-content: center;
+  }
+  .brand_name img{
+    width: 150px;
+    height: 70px;
+  }
+  .brand_name{
+    /* background-color: #fff; */
+    box-shadow: #3D2C8D 0px 3px 8px;
+    display: flex;
+    justify-content: center;
+    margin: 5px ;
+    padding: 3px;
+  }
+  
+
+  
